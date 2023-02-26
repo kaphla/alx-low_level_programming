@@ -17,11 +17,11 @@ int main(void)
 	for (i = '0'; i <= '9'; i++)
 	{
 	putchar(i);
-	if (d != "9\n")
+	if (d != '9')
 	}
 	{
-	putchar(",\n");
-	putchar(" \n");
+	putchar(',');
+	putchar(' ');
 	}
 	return (0);
 }
