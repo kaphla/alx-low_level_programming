@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - A program to assign a random numbaer to variable
  * A program that print wheather a number is stored in variable n is positive or negative
