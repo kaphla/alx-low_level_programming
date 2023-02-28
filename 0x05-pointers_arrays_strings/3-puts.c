@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _puts - A function that prints a string, followed by a new line, to stdout
@@ -8,7 +8,7 @@
 
 void _puts(char *str)
 {
-for (; *str != ('\0'); str++)
+for (; *str != '\0'; str++)
 {
 _putchar(*str);
 }
