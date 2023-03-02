@@ -1,22 +1,19 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * string_toupper - A function that changes all lowercase to uppercase
- * @n: The pointer
- * Return: char
+ * main - A function that changes all lowercase to uppercase
+ * Return: 0
  */
 
-char *string_toupper(char *n)
+int main(void)
 
 {
-	int den;
+char str[] = "Look up!\n";
+char *ptr;
+ptr = string_toupper(str);
+printf("%s", ptr);
+printf("%s", str);
 
-	den = 0;
-	while (n[den] != '\n')
-	{
-		if (n[den] >= 'a' && n[den] <= 'z')
-			n[den] = n[den] - 32;
-		den++;
-	}
-	return (n);
+	return (0);
 }
