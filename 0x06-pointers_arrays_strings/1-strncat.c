@@ -16,14 +16,14 @@ char *_strncat(char *dest, char *src, int n)
 	int j;
 
 	den = 0;
-	while  (dest[den++] != '\0')
+	while (dest[den] != '\0')
 	{
 	den++;
 	}
 	j = 0;
 	while (j < n && src[j] != '\0')
 	{
-	dest[j] = src[j];
+	dest[den] = src[j];
 	den++;
 	j++;
 	}
