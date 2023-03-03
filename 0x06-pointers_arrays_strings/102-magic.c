@@ -10,14 +10,14 @@ int main(void)
 	k = &i;
 
 /*
- * main - one line of code that prints a[2] = 98
- *   - You are not allowed to use the variable a in your new line of code
+ * main - magic
+ *   - You are not allowed to use the variable a in your code
  *   - You are not allowed to modify the variable p
  *   - You can only write one statement
- *   - You are not allowed to code anything else than the line of code
+ *   - You are not allowed to code anything else than code
  */
 	*(k + 5) = 98;
-	/*... this now prints 98\n */
-	printf("j[2] - %d\n", k[2]);
+/*... this should print 98\n */
+	printf("j[2] - %d\n", j[2]);
 	return (0);
 }
